@@ -1,0 +1,165 @@
+html{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:'Overpass', sans-serif;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+h2,p{
+    margin: 0;
+}
+footer{
+    position: absolute;
+    top: 95%;
+    font-size: 0.8rem;
+    left: 4%;
+    right: 4%;
+    text-align: center;
+    background-color:beige;
+    color:chocolate;
+    font-weight: bold;
+    border-radius: 50px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #121417;
+}
+.svgm{
+    background-color:#313D4F;
+    display: flex;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#bu2{
+    width: 93%; 
+    color: white;
+    background-color: #fb7413;
+    opacity: 0.9;
+}
+#container>p{
+    color: white;
+    font-size: 0.9rem; 
+    opacity: 0.5;
+}
+#buttons{
+    margin-top: 25px;
+    margin-bottom: 85px;
+    }
+#but1,#but2,#but3,#but4{
+    margin-right: 4.5%;
+}
+button{
+    border-radius: 50px;
+    width: 39px;
+    height: 39px;
+    border: none;
+    color: white;
+    background-color: #525760;
+    opacity: 0.4;
+    float: left;
+}
+#container{
+    border-radius: 14px 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8% 7% 8% 7%;
+   color: white;
+    background-color: #252d37;
+}
+@media(min-width: 376px){
+   #container{
+    margin: auto;
+    padding: 30px 25px 10px 30px;
+    width: 378px;
+    height: 368px;
+   }  
+   footer{
+    position: absolute;
+    top: 95%;
+    left: 38%;
+    right: 38%;
+    text-align: center;
+    background-color:aliceblue;
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 25%;
+    border-radius: 50px;
+}
+
+   #container>p{
+    color: white;
+    font-size: 0.96rem; 
+    opacity: 0.5;
+}
+   button{
+    border-radius: 47px;
+    width: 47px;
+    height: 47px;
+    border: none;
+    color: white;
+    background-color: #525760;
+}
+#buttons{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    }
+    #bu2{
+        width: 93%; 
+        height: 12%;
+        color: white;
+        background-color: #fb7413;
+        opacity: 0.9;
+    }
+    
+}
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+#but1:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+#but2:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+#but3:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+#but4:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+#but5:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+#but1:focus{
+    background-color: hsl(217, 12%, 63%);
+    opacity: 1;
+}
+#but2:focus{
+    background-color: hsl(217, 12%, 63%);
+    opacity: 1;
+}
+#but3:focus{
+    background-color: hsl(217, 12%, 63%);
+    opacity: 1;
+}
+#but4:focus{
+    background-color: hsl(217, 12%, 63%);
+    opacity: 1;
+}
+#but5:focus{
+    background-color: hsl(217, 12%, 63%);
+    opacity: 1;
+}
+#bu2:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}

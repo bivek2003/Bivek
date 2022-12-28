@@ -1,0 +1,52 @@
+let buton = document.getElementById('buttons');
+let container=document.getElementById('container');
+let submit=document.getElementById('bu2');
+let value=0;
+buton.addEventListener('click',function(e){
+    value= e.target.innerHTML;
+});
+function newpages(){
+    let icon=document.getElementById('icon');
+    icon = '<img id="computerIcon" src="illustration-thank-you.svg" alt="icon-computer" width=45%>';
+    container.innerHTML=icon;
+    document.getElementById('computerIcon').style.marginLeft='25%';
+    document.getElementById('computerIcon').style.marginTop='15px';
+    let pit=document.createElement('p');
+    let pit2 = document.createElement('h2');
+    let pit3=document.createElement('p');
+    pit.classList.add('pit1');
+    pit2.classList.add('pit22');
+    pit3.classList.add('pit33');
+    pit.textContent='You selected '+value+' out of 5';
+    pit2.textContent="Thank you!";
+    pit3.textContent="We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!"
+    container.appendChild(pit);
+    container.appendChild(pit2);
+    container.appendChild(pit3);
+    let para=document.querySelector('.pit1');
+    let para2=document.querySelector('.pit22');
+    let para3=document.querySelector('.pit33');
+    para.setAttribute('id','para1');
+    para2.setAttribute('id','para222');
+    para3.setAttribute('id','para333');
+    document.getElementById('para1').style.color='#fb7413';
+    document.getElementById('para1').style.opacity='1';
+    document.getElementById('para1').style.borderRadius='50px';
+    document.getElementById('para1').style.background='#313D4F';
+    document.getElementById('para1').style.marginTop='25px';
+    document.getElementById('para1').style.width='60%';
+    document.getElementById('para1').style.height='8%';
+    document.getElementById('para1').style.marginLeft='20%';
+    document.getElementById('para1').style.textAlign='center';
+    document.getElementById('para1').style.padding='5px 0px';
+    document.getElementById('para222').style.color='white';
+    document.getElementById('para222').style.marginTop='30px';
+    document.getElementById('para222').style.fontWeight='bold';
+    document.getElementById('para222').style.textAlign='center';
+    document.getElementById('para333').style.color='white';
+    document.getElementById('para333').style.opacity='0.5';
+    document.getElementById('para333').style.fontWeight='100';
+    document.getElementById('para333').style.textAlign='center';
+    document.getElementById('para333').style.marginTop='15px';
+}
+submit.addEventListener('click',newpages);
