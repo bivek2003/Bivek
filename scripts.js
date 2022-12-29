@@ -34,9 +34,9 @@ function newpages(){
     document.getElementById('para1').style.borderRadius='50px';
     document.getElementById('para1').style.background='#313D4F';
     document.getElementById('para1').style.marginTop='25px';
-    document.getElementById('para1').style.width='62%';
+    document.getElementById('para1').style.width='60%';
     document.getElementById('para1').style.height='8%';
-    document.getElementById('para1').style.marginLeft='18%';
+    document.getElementById('para1').style.marginLeft='20%';
     document.getElementById('para1').style.textAlign='center';
     document.getElementById('para1').style.padding='5px 0px';
     document.getElementById('para222').style.color='white';
